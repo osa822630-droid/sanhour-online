@@ -1,0 +1,50 @@
+ name: sanhour_app
+description: A Flutter application for Sanhour Online.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  shared_preferences: ^2.3.2
+  intl: ^0.19.0
+  carousel_slider: ^5.0.0
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  image_picker: ^1.0.4
+  url_launcher: ^6.1.11
+  flutter_local_notifications: ^16.3.0
+  timezone: ^0.9.1
+  logger: ^1.4.0
+  firebase_analytics: ^10.4.0
+  flutter_rating_bar: ^4.0.1
+  pull_to_refresh: ^2.0.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+  path_provider: ^2.1.1
+  permission_handler: ^11.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  hive_generator: ^1.1.3
+  build_runner: ^2.4.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  # ملاحظة: تم إزالة أقسام android و ios لأنها تسبب أخطاء في flutlab.io
+  # هذه الإعدادات يتم وضعها في ملفات منفصلة في المشروع
